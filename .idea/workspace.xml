@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e10c4b6-c6e7-4040-bd04-44c27e64a8d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dingcorithm/add_node_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/append_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/find_max_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/find_max_occurred_alphabet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/find_max_plus_or_multiply.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/find_not_repeating_first_character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/get_linked_list_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/get_node_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dingcorithm/is_number_exist.py" afterDir="false" />
+    <list default="true" id="4e10c4b6-c6e7-4040-bd04-44c27e64a8d9" name="Changes" comment="시간, 공간복잡도, array, linked list">
+      <change afterPath="$PROJECT_DIR$/dingcorithm/count_down_recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dingcorithm/factorial_recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dingcorithm/is_existing_target_number_binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dingcorithm/is_existing_target_number_sequential.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dingcorithm/is_palindrome_for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dingcorithm/is_palindrome_recursive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,9 @@
     "Python.add_node_linked_list.executor": "Run",
     "Python.append_linked_list.executor": "Run",
     "Python.class.executor": "Run",
+    "Python.count_down_recursive.executor": "Run",
+    "Python.delete_node_linked_list.executor": "Run",
+    "Python.factorial_recursive.executor": "Run",
     "Python.findMaxNum.executor": "Run",
     "Python.findMaxOccurredAlphabet.executor": "Run",
     "Python.find_max_num.executor": "Run",
@@ -69,16 +69,25 @@
     "Python.get_linked_list_sum.executor": "Run",
     "Python.get_node_linked_list.executor": "Run",
     "Python.isNumberExist.executor": "Run",
+    "Python.is_existing_target_number_binary.executor": "Run",
+    "Python.is_existing_target_number_sequential.executor": "Run",
     "Python.is_number_exist.executor": "Run",
+    "Python.is_palindrome_for.executor": "Run",
+    "Python.is_palindrome_recursive.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/kmgcs/Documents",
+    "last_opened_file_path": "C:/Users/kmgcs/Documents/algorithm/dingcorithm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.delete_node_linked_list">
-    <configuration name="add_node_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kmgcs\Documents\algorithm\dingcorithm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.is_palindrome_for">
+    <configuration name="count_down_recursive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/add_node_linked_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/count_down_recursive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="delete_node_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="factorial_recursive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/delete_node_linked_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/factorial_recursive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_linked_list_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="is_existing_target_number_binary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +144,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/get_linked_list_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/is_existing_target_number_binary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_node_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="is_palindrome_for" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,7 +166,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/get_node_linked_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/is_palindrome_for.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="is_number_exist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="is_palindrome_recursive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,7 +188,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/is_number_exist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingcorithm/is_palindrome_recursive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.delete_node_linked_list" />
-        <item itemvalue="Python.add_node_linked_list" />
-        <item itemvalue="Python.is_number_exist" />
-        <item itemvalue="Python.get_node_linked_list" />
-        <item itemvalue="Python.get_linked_list_sum" />
+        <item itemvalue="Python.is_palindrome_for" />
+        <item itemvalue="Python.is_palindrome_recursive" />
+        <item itemvalue="Python.factorial_recursive" />
+        <item itemvalue="Python.count_down_recursive" />
+        <item itemvalue="Python.is_existing_target_number_binary" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +223,15 @@
       <option name="presentableId" value="Default" />
       <updated>1735728965897</updated>
     </task>
+    <task id="LOCAL-00001" summary="시간, 공간복잡도, array, linked list">
+      <option name="closed" value="true" />
+      <created>1735735780700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735735780700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,5 +244,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="시간, 공간복잡도, array, linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="시간, 공간복잡도, array, linked list" />
   </component>
 </project>
